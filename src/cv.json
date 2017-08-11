@@ -34,21 +34,23 @@
 		} 
 	],
 		"projects" : [
+				
 				{
-					"about_title": "Projects" 
-				},
-				{
+					"about_title": "Projects" ,
 					"title" : "Rails Restourants Reviews",
-					"description" : "User after registration can read, like, post a comment for each restaurant."
+					"description" : "User after registration can read, like, post a comment for each restaurant.",
+					"image": "https://images.pexels.com/photos/5317/food-salad-restaurant-person.jpg?w=940&h=650&auto=compress&cs=tinysrgb"
 				},
 				{
 					"title" :"React JS App",
-					"description" : "Latest React Js and Bootstrap 3 ..."
+					"description" : "Latest React Js and Bootstrap 3 ...",
+						"image": "https://images.pexels.com/photos/33688/delicate-arch-night-stars-landscape.jpg?w=940&h=650&auto=compress&cs=tinysrgb"
 				}
 				,
 				{
 					"title" :"Django projects",
-					"description" : "Latest Django and Bootstrap 3 projects"
+					"description" : "Latest Django and Bootstrap 3 projects",
+						"image": "https://images.pexels.com/photos/20045/pexels-photo.jpg?w=940&h=650&auto=compress&cs=tinysrgb"
 				}
 		]
 }

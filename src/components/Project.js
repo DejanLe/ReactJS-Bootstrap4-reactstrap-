@@ -1,28 +1,32 @@
-import React from 'react';
+import React, {Component} from 'react';
 import { Card, CardImg, CardText, CardBlock,
   CardTitle, CardSubtitle, Button, Row, Col } from 'reactstrap';
- import cv from '../cv.json'; 
+import cv from '../cv.json'; 
 
+import { ListGroup, ListGroupItem, ListGroupItemHeading, ListGroupItemText } from 'reactstrap';
+  
+export default class Projects extends React.Component {
 
-const Projects = (props) => {
-  return (
-    <div>
-    
-      <Row> 
-        <Col xs="12" md="4"> 
-         <Card>
-          <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
+  render() {
+
+    return (
+      <div className="projects">
+      <h3 className="skills-about-projects">{ this.props.item.about_title }</h3>
+      <Row>
+        <Col xs="12" md="12">  
+          <Card>
+          <CardImg top width="100%" src="  " />
+           <img src={this.props.item.image} className="img-fluid" /> 
           <CardBlock>
-            <CardTitle>  <p> </p> </CardTitle>
-            <CardSubtitle>Like, Comment, Share</CardSubtitle>
+            <CardTitle> { this.props.item.title }</CardTitle>
+            <CardSubtitle>{ this.props.item.description }</CardSubtitle>
             <CardText> </CardText>
             <Button>Learn more</Button>
           </CardBlock>
         </Card>
-      </Col> 
-     </Row>
-    </div>
-  );
-};
-
-export default Projects;
+       </Col>
+       </Row> 
+       </div>
+    );
+  }
+}
