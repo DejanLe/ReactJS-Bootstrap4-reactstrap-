@@ -42,3 +42,12 @@
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
+.footer{
+  background: #888;
+  color: #fff;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.cv-image{
+  border-radius: 50% !important;
+}

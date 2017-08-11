@@ -8,11 +8,14 @@ import { ListGroup, ListGroupItem, ListGroupItemHeading, ListGroupItemText } fro
 export default class Experience extends React.Component {
 
   render() {
+
     return (
       <div className="experience">
+      <h3 className="skills-about-projects">{ this.props.item.about_title }</h3>
       <Row>
-        <Col xs="12" md="4"> 
-         <Card>
+        <Col xs="12" md="12"> 
+
+         <Card> 
             <div className="text-center">
               <h3 className="skills-about-projects">{ this.props.item.title }</h3> 
             	  <p>{ this.props.item.period }</p>

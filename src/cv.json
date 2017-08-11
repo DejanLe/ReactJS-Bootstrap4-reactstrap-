@@ -17,6 +17,7 @@
 		],
 	"experiences":[
 		{
+			"about_title": "Experience",
 			"title" : "Frontent Ruby on Rails developer",
 			"period" : "Maj 2017",
 			"company" : "Freelance"
@@ -33,6 +34,9 @@
 		} 
 	],
 		"projects" : [
+				{
+					"about_title": "Projects" 
+				},
 				{
 					"title" : "Rails Restourants Reviews",
 					"description" : "User after registration can read, like, post a comment for each restaurant."

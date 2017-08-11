@@ -7,7 +7,7 @@ import { Card, CardImg, CardText, CardBlock,
 const Projects = (props) => {
   return (
     <div>
-     <h3 className="skills-about-projects">Projects</h3>
+    
       <Row> 
         <Col xs="12" md="4"> 
          <Card>
