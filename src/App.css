@@ -5,6 +5,7 @@
     background-color: #33386d;
     border-radius: 0.3rem;
     text-align:center;
+    box-shadow: 0.1rem 0.3rem 0.7rem #000;
 }
 .jumbotron h1{
   color: #fff;
@@ -41,6 +42,7 @@
     color: #fff;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    box-shadow: 0.1rem 0.3rem 0.7rem #000;
 }
 .footer{
   background: #888;
@@ -50,4 +52,16 @@
 }
 .cv-image{
   border-radius: 50% !important;
+  box-shadow: 0.1rem 0.3rem 0.7rem #000;
+}
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    box-shadow: 0.1rem 0.3rem 0.7rem #000;
 }

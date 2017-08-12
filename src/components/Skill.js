@@ -1,6 +1,6 @@
 import React from 'react';
 import { Progress } from 'reactstrap';
-import cv from '../cv.json'; 
+ 
 
 const Example = (props) => {
   return (

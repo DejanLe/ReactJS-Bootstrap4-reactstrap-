@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, CardImg, CardText, CardBlock,
   CardTitle, CardSubtitle, Button, Row, Col, Container } from 'reactstrap';
- import cv from '../cv.json'; 
+ import cv from '../experiences.json'; 
 
 
 const Footer = (props) => {

@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import { Card, CardImg, CardText, CardBlock,
   CardTitle, CardSubtitle, Button, Row, Col } from 'reactstrap';
-import cv from '../cv.json'; 
+ 
 
 import { ListGroup, ListGroupItem, ListGroupItemHeading, ListGroupItemText } from 'reactstrap';
   
@@ -13,10 +13,11 @@ export default class Projects extends React.Component {
       <div className="projects">
       <h3 className="skills-about-projects">{ this.props.item.about_title }</h3>
       <Row>
-        <Col xs="12" md="12">  
+         <Col xs="12" md="4"> 
           <Card>
-          <CardImg top width="100%" src="  " />
+          <CardImg top />
            <img src={this.props.item.image} className="img-fluid" /> 
+
           <CardBlock>
             <CardTitle> { this.props.item.title }</CardTitle>
             <CardSubtitle>{ this.props.item.description }</CardSubtitle>
