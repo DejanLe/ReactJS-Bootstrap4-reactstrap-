@@ -1,4 +1,6 @@
 {
+	"title_experience": "Experience",
+	"title_projects" : "Projects",
 	"abouts":[
 		{
 			"about_title": "About",
@@ -12,25 +14,28 @@
 			"about_title": "About",
 			"about_content": "Nam condimentum tellus non nibh finibus hendrerit. Vivamus quis diam neque. Pellentesque in maximus mi. Nunc lacinia libero ut odio pretium tincidunt. Donec interdum posuere auctor. Etiam eu ligula dolor. Praesent cursus id lacus non volutpat.",
 			"name": "Dejan Nikolic",
-			"image": "https://avatars1.githubusercontent.com/u/15807958?v=3&s=460" 
+			"image": "https://images.pexels.com/photos/33688/delicate-arch-night-stars-landscape.jpg?w=940&h=650&auto=compress&cs=tinysrgb"
 		}  
 		],
 	"experiences":[
+	 
 		{
-			"about_title": "Experience",
 			"title" : "Frontent Ruby on Rails developer",
 			"period" : "Maj 2017",
-			"company" : "Freelance"
+			"company" : "Freelance",
+				"image": "https://images.pexels.com/photos/33688/delicate-arch-night-stars-landscape.jpg?w=940&h=650&auto=compress&cs=tinysrgb"
 		},
 		{
 			"title" : "Freelance developer",
 			"period" : "Januar 2017 - ",
-			"company" : "Freelance"
+			"company" : "Freelance",
+				"image": "https://images.pexels.com/photos/5317/food-salad-restaurant-person.jpg?w=940&h=650&auto=compress&cs=tinysrgb"
 		},
 		{
 			"title" : "Frontend developer at Modals",
 			"period" : "Novembar 2015-Decembar-2016",
-			"company" : "Modals"
+			"company" : "Modals",
+			"image": "https://images.pexels.com/photos/20045/pexels-photo.jpg?w=940&h=650&auto=compress&cs=tinysrgb"
 		} 
 	],
 		"projects" : [

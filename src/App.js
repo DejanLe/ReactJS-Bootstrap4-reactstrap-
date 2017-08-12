@@ -22,14 +22,19 @@ class App extends Component {
    renderExperiences(){
     let resultsArray = [];
     experiences.experiences.map((item, i) => {
+     
       resultsArray.push(
-      
-     <Experience item={item} key={i}  />
+       
+         <Col xs="12" md="4"> 
+            <Experience item={item} key={i}  />
+         </Col>
       
       );
+
     });
     return resultsArray;
   } 
+  
  renderSkills(){
     let resultsArray = [];
     experiences.skills.map((item, i) => {
@@ -40,7 +45,11 @@ class App extends Component {
  renderProjects(){
     let resultsArray = [];
    experiences.projects.map((item, i) => {
-      resultsArray.push(<Project item={item} key={i}  />);
+      resultsArray.push(
+       <Col xs="12" md="4"> 
+      <Project item={item} key={i}  />
+       </Col>
+      );
     });
     return resultsArray;
   } 
@@ -55,10 +64,19 @@ class App extends Component {
           <Container>
               
              {this.renderAbouts()}
-             {this.renderExperiences()}
+             <Row>
+             <Col xs="12" md="12"> 
+              <h3 className="skills-about-projects">{ experiences.title_experience }</h3>
+               </Col> 
+               {this.renderExperiences()} 
+             </Row>
              {this.renderSkills()}
+             <Row>
+              <Col xs="12" md="12"> 
+                <h3 className="skills-about-projects">{ experiences.title_projects }</h3>
+               </Col> 
              {this.renderProjects()}
-              
+            </Row>
           </Container>
         <Footer /> 
        </div>

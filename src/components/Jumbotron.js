@@ -1,6 +1,6 @@
 import React from 'react';
 import { Jumbotron, Button } from 'reactstrap';
-import cv from '../experiences.json'; 
+import experiences from '../experiences.json'; 
 
 const Example = (props) => {
   return (

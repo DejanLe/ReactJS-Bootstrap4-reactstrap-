@@ -65,3 +65,6 @@
     border-radius: 0.25rem;
     box-shadow: 0.1rem 0.3rem 0.7rem #000;
 }
+.btn{
+  cursor: pointer;
+}
